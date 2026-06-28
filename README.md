@@ -18,6 +18,7 @@ Start with these documents:
 4. [ML-Native Engine Direction](docs/ml-native-direction.md) — how native C++ machine-learning primitives could become first-class engine components.
 5. [Modernization Roadmap](docs/modernization-roadmap.md) — an implementation sequence for turning the prototype into a coherent next-generation system.
 6. [Editor CLI and Process Boundary Debt](docs/editor-cli-debt.md) — why the old GUI subprocess/argv communication should be retired in favor of typed services.
+7. [Branch and Pull Request Plan](docs/branch-pr-plan.md) — ordered future branch/PR sequence for engine, editor, runtime, ML, web, and cleanup work.
 
 ## Current architectural center
 

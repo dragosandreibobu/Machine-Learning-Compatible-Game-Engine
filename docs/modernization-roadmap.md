@@ -2,6 +2,8 @@
 
 This roadmap focuses on turning the prototype into a coherent next-generation engine/editor system without losing the simplicity and beauty of the original engine API.
 
+For a branch-by-branch implementation sequence, see [Branch and Pull Request Plan](branch-pr-plan.md).
+
 ## Phase 0: Preserve the prototype
 
 Before rewriting, preserve what exists:

@@ -11,6 +11,10 @@ Before rewriting, preserve what exists:
 - keep the Python editor as historical/prototype reference;
 - avoid rewriting everything before proving the new architecture.
 
+## Phase 0.5: Retire internal CLI glue
+
+The Python prototype used subprocess calls and argument parsing for internal editor communication. Do not carry that pattern into the C++/Qt rewrite. Before building new panels, define typed services for project, scene, asset, and build operations. CLI commands may remain as external wrappers, but they should call the same services rather than being the primary editor API.
+
 ## Phase 1: CMake and C++ project structure
 
 Create a modern C++ layout:

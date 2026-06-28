@@ -17,6 +17,7 @@ Start with these documents:
 3. [Runtime Loop Ownership](docs/runtime-loop-ownership.md) — how Qt, native runtime, and browser hosts should drive the engine without the engine owning the main loop.
 4. [ML-Native Engine Direction](docs/ml-native-direction.md) — how native C++ machine-learning primitives could become first-class engine components.
 5. [Modernization Roadmap](docs/modernization-roadmap.md) — an implementation sequence for turning the prototype into a coherent next-generation system.
+6. [Editor CLI and Process Boundary Debt](docs/editor-cli-debt.md) — why the old GUI subprocess/argv communication should be retired in favor of typed services.
 
 ## Current architectural center
 

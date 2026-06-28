@@ -148,6 +148,8 @@ The C++/Qt editor should own:
 
 The editor should manipulate actual engine `Scene` and `GameObject` instances in memory, not constantly shell out to separate helper programs.
 
+The previous subprocess-heavy GUI communication model should be treated as prototype glue. A C++/Qt rewrite should centralize project, scene, asset, and build operations behind typed services instead of routing internal editor state through command-line arguments and parsed stdout.
+
 ## Runtime responsibilities
 
 A standalone runtime should own:
